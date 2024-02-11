@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #607D8B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+
+.container {
+    background-color: #B0BEC5;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    max-width: 800px;
+    width: 90%;
+}
+
+.title {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+.subtitle {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.game-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.player, .computer {
+    width: 45%;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.option {
+    background-color: #009688;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 15px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.option:hover {
+    background-color: #00796B;
+}
+
+.result {
+    font-size: 28px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.result span {
+    margin: 5px; /* Adjust the spacing as needed */
+    padding: 5px 10px; /* Add padding */
+}
+
+/* Add this CSS to style the score */
+.score {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Add this CSS to style the reset button */
+.reset-button {
+    background-color: #FF5722;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 12px 20px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.reset-button:hover {
+    background-color: #F4511E;
+}
+
+/* Adjust the styles as needed */
